@@ -25,10 +25,6 @@
 	background: var(--color-ac-prm-light);
 }
 
-.HIDE {
-	display: none !important;
-}
-
 .nav, .card, .container, .float {
 	box-shadow: 0 0px 2px #00000042,
               0 2px 2px #00000042;
