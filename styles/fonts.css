@@ -1,0 +1,36 @@
+@font-face {
+	font-family: roboto-regular-font;
+	src: url("../fonts/roboto/regular.ttf");
+}
+
+@font-face {
+	font-family: roboto-bold-font;
+	src: url("../fonts/roboto/bold.ttf");
+}
+
+@font-face {
+	font-family: roboto-mono-font;
+	src: url("../fonts/roboto/mono.ttf");
+}
+
+@font-face {
+	font-family: roboto-slab-font;
+	src: url("../fonts/roboto/slab.ttf");
+}
+
+:root {
+	font-family: roboto-regular-font;
+}
+
+.ul > li {
+	font-family: roboto-slab-font;
+}
+
+.nav > a, .button {
+	font-family: roboto-bold-font;
+}
+
+.footer {
+	font-family: roboto-mono-font;
+}
+
