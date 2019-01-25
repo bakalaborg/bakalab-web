@@ -1,0 +1,29 @@
+.adaptive-icon {
+	animation: adaptive-icon 4s;
+	clip-path: inset(16.5% 16.5% 16.5% 16.5% round 12.5%);
+}
+
+
+@keyframes adaptive-icon {
+	0% {
+		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 12.5%);
+	}
+	16% {
+		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 12.5%);
+	}
+	32% {
+		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 25%);
+	}
+	48% {
+		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 25%);
+	}
+	64% {
+		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 50%);
+	}
+	80% {
+		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 50%);
+	}
+	100% {
+		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 12.5%);
+	}
+}
