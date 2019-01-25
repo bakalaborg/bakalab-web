@@ -1,2 +1,2 @@
-# bakalab-web
+# Bakalab web
 The Bakalab web page
