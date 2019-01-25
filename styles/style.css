@@ -2,22 +2,17 @@
 	--color-bg: #f5f5f5;
 	--color-bg-dark: #c2c2c2;
 	--color-bg-light: #ffffff;
-
 	--color-fg: #212121;
 	--color-fg-dark: #000000;
 	--color-fg-light: #484848;
-
 	--color-ac-prm: #1976d2;
 	--color-ac-prm-dark: #004ba0;
 	--color-ac-prm-light: #63a4ff;
-	
 	--color-ac-sec: #d32f2f;
 	--color-ac-sec-dark: #9a0007;
 	--color-ac-sec-light: #ff6659;
-	
 	color: var(--color-fg);
-	background: var(--color-bg);
-	background-attachment: fixed;
+	background-color: var(--color-bg);
 	font-size: 18px;
 }
 
@@ -25,12 +20,12 @@
 	background: var(--color-ac-prm-light);
 }
 
-.nav, .card, .container, .float {
+.card, .float {
 	box-shadow: 0 0px 2px #00000042,
               0 2px 2px #00000042;
 }
 
-.link {
+a.link {
 	text-decoration: none;
 	color: var(--color-ac-prm-dark);
 	transition: color 200ms;
@@ -100,6 +95,11 @@ img.banner:hover {
 	margin: 16px;
 }
 
+.img {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
 h3.h {
 	margin-top: -16px;
 }
@@ -138,53 +138,29 @@ h3.h {
 	color: var(--color-sec);
 }
 
+.c-dark {
+	background-color: var(--color-ac-prm-dark);
+}
+
+.c-light {
+	background-color: var(--color-ac-prm-light);
+}
+
 .img {
 	max-width: calc(100% - 16px);
 }
 
-.adaptive-icon {
-	animation: adaptive-icon 4s;
-	clip-path: inset(16.5% 16.5% 16.5% 16.5% round 12.5%);
-}
-
-
-@keyframes adaptive-icon {
-	0% {
-		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 12.5%);
-	}
-	16% {
-		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 12.5%);
-	}
-	32% {
-		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 25%);
-	}
-	48% {
-		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 25%);
-	}
-	64% {
-		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 50%);
-	}
-	80% {
-		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 50%);
-	}
-	100% {
-		clip-path: inset(16.5% 16.5% 16.5% 16.5% round 12.5%);
-	}
-}
-
 .footer {
-	margin: 16px;
-	margin-top: 2em;
+	margin: 1.6rem;
 	color: var(--color-fg);
-	font-size: 0.8em;
+	font-size: 0.8rem;
 }
 
 .float {
 	transition: background-color 400ms;
-	height: 4em;
-	margin: 0 auto;
-	margin-bottom: -2em;
-	padding: 1em;
+	height: 4rem;
+	margin: 2rem auto;
+	padding: 1rem;
 	background: var(--color-ac-sec);
 	color: var(--color-fg);
 	border: none;

@@ -1,36 +1,36 @@
 @font-face {
-	font-family: roboto-regular-font;
-	src: url("../fonts/roboto/regular.ttf");
+	font-family: roboto-regular;
+	src: url("../fonts/roboto-regular.ttf");
 }
 
 @font-face {
-	font-family: roboto-bold-font;
-	src: url("../fonts/roboto/bold.ttf");
+	font-family: roboto-bold;
+	src: url("../fonts/roboto-bold.ttf");
 }
 
 @font-face {
-	font-family: roboto-mono-font;
-	src: url("../fonts/roboto/mono.ttf");
+	font-family: roboto-mono;
+	src: url("../fonts/roboto-mono.ttf");
 }
 
 @font-face {
-	font-family: roboto-slab-font;
-	src: url("../fonts/roboto/slab.ttf");
+	font-family: roboto-slab;
+	src: url("../fonts/roboto-slab.ttf");
 }
 
 :root {
-	font-family: roboto-regular-font;
+	font-family: roboto-regular;
 }
 
 .ul > li {
-	font-family: roboto-slab-font;
+	font-family: roboto-slab;
 }
 
 .nav > a, .button {
-	font-family: roboto-bold-font;
+	font-family: roboto-bold;
 }
 
 .footer {
-	font-family: roboto-mono-font;
+	font-family: roboto-mono;
 }
 
