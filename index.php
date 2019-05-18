@@ -7,9 +7,5 @@
 		<script>window.location = "pages/home.html";</script>
 	</head>
 	<body>
-		<?php
-			header("Location: pages/home.html");
-			exit();
-		?>
 	</body>
 </html>
